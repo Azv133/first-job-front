@@ -1,0 +1,117 @@
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: auto;
+}
+
+footer a{
+    color: #A1A1A1;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+}
+
+.ico{
+    width: 21.01px;
+    height: 24.269px;
+}
+
+.buttons-bar{
+    border-radius: 8px;
+    border: 1px solid rgba(95, 94, 94, 0.75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 20px;
+    min-width: 738px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 9px 20px;
+    color: #606060;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px; /* 100% */
+    border-radius: 8px;
+}
+
+.white{
+    background-color: #FFF;
+}
+
+.white:hover{
+    background-color: rgba(161, 161, 161, 0.20);
+}
+
+.gray{
+    background: rgba(161, 161, 161, 0.20);
+}
+
+.dark{
+    background: #201E1E;
+    color: #FFF;
+}
+
+.dark:hover{
+    background: #333030;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding-top: 23px;
+    padding-bottom: 29px;
+    height: 172px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(99deg, #7654FF 0%, #F0F6FF 100%);
+}
+
+.banner p{
+    color: #11023B;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px; /* 140% */
+}
+
+.img-left{
+    position: absolute;
+    transform: translate(0%, -13.6%);
+}
+
+.img-right{
+    position: absolute;
+    transform: translate(155.7%, -13%);
+}
+
+.btn-banner{
+    border-radius: 9999px;
+    border: 1px solid rgba(124, 22, 255, 0.14);
+    width: 220px;
+    padding: 9px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-banner span{
+    border-radius: 9999px;
+    background: rgba(170, 51, 242, 0.10);
+    color: #2D2C2D;
+    padding: 5px 16px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}

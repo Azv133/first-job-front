@@ -1,0 +1,160 @@
+body{
+    background: #FFF;
+}
+
+.content-card{
+    border-radius: 10px;
+    background: rgba(193, 128, 234, 0.08);
+    padding-top: 17px;
+    padding-bottom: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer-card{
+    padding: 15.4px 36px;
+    width: 784px;
+    min-height: 179px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 16px;
+}
+
+.offer-card-title{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
+.logo{
+    border-radius: 5px;
+    height: 37.934px;
+    width: auto;
+}
+
+.offer-card-title h1{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px; /* 100% */
+}
+
+.offer-card-title h2{
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px; /* 140% */
+}
+
+.light-text{
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 14px; /* 140% */
+}
+
+.offer-card-body{
+    display: flex;
+    text-align: start;
+}
+
+.offer-card-body p{
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px; /* 116.667% */
+}
+
+.modality{
+    border-radius: 5px;
+    background: linear-gradient(93deg, rgba(72, 72, 72, 0.27) 0.79%, rgba(104, 53, 170, 0.10) 110.27%);
+    min-width: 113px;
+    height: 33.192px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5.93px 34px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px; /* 116.667% */
+}
+
+.hibrido{
+    box-shadow: 0px 0px 0px 1px #8AFDA7 inset;
+}
+
+.patrocinado{
+    box-shadow: 0px 0px 0px 1px #f7ff99 inset;
+}
+
+.patrocinado-border {
+    border: 3px solid #f7ff99;
+}
+
+.virtual{
+    box-shadow: 0px 0px 0px 1px #F26D95 inset;
+}
+
+.presencial{
+    box-shadow: 0px 0px 0px 1px #9F8FFF inset;
+}
+
+.info-button{
+    border-radius: 5px;
+    background: #7D42F4;
+    min-width: 147px;
+    height: 33.192px;
+    padding: 5.93px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px; /* 116.667% */
+}
+
+.info-button:hover{
+    background: #9769f1;
+}
+
+
+.info-button-blue{
+    border-radius: 5px;
+    background: #214FF3;
+    min-width: 147px;
+    height: 33.192px;
+    padding: 5.93px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px; /* 116.667% */
+}
+
+.info-button-blue:hover{
+    background: #4d72f8;
+}
+
+.offer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.offer-card:nth-child(odd) {
+    border-radius: 10px;
+    background: #201E1E;
+}
+
+.offer-card:nth-child(even){
+    border-radius: 10px;
+    background: #4D4D4D;
+}

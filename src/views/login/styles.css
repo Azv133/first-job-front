@@ -1,0 +1,95 @@
+.dark-bg{
+    background: #201E1E;
+}
+
+.he-90{
+    height: 80vh;
+}
+
+.login-card{
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(86, 84, 84, 0.28) 0.83%, rgba(86, 84, 84, 0.19) 38.33%, rgba(86, 84, 84, 0.17) 76.5%, rgba(86, 84, 84, 0.10) 100%);
+    padding-left: 80px;
+    padding-right: 80px;
+    max-width: 482px;
+    padding-top: 69px;
+    padding-bottom: 57px;
+}
+
+.titles{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.titles h2{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titles h1{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-input label{
+    color: #7A7A7A;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.form-input input{
+    border-radius: 9px;
+    border: 1px solid #A0A0A0;
+    background-color: transparent;
+    height: 42px;
+    position: relative;
+    padding: 14px 17px;
+    padding-right: 40px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-input input::placeholder{
+    color: #716C6C;
+}
+
+.form-input img{
+    height: 24px;
+    width: auto;
+    position: absolute;
+    transform: translate(1140%, 130%);
+}
+
+.btn-iniciar{
+    border-radius: 12px;
+    background: #7D42F4;
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    text-align: center;
+    padding: 10px 26px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.2px;
+    width: 227px;
+}
+
+.btn-iniciar:hover {
+    background: #9769f1;
+}

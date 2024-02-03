@@ -1,0 +1,45 @@
+.offer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px; /* 116.667% */
+}
+
+.offer-list b{
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+}
+
+.btn-blue {
+    background-color: #214FF3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 4px 11px;
+}
+
+.btn-blue:hover{
+    background-color: #4d70f1;
+}
+
+.post-button{
+    border-radius: 5px;
+    background: #5A5663;
+    min-width: 147px;
+    height: 33.192px;
+    padding: 5.93px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px; /* 116.667% */
+}
